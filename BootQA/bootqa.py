@@ -128,8 +128,9 @@ if __name__ == '__main__':
     #data_names -> list of dataset names
     #samples_params = {"data_name":(n_size,m_time),...}
     #repeat = #experiment repetitions
-    data_names = ["gsdtsr","paintcontrol"]
-    samples_params = {"gsdtsr":(20,21),"paintcontrol":(30,6)}
+    #data_names = ["gsdtsr","paintcontrol"]
+    data_names = ["iofrol"]
+    samples_params = {"gsdtsr":(20,21),"paintcontrol":(30,6),"iofrol":(30,127)}
     repeat = 10
 
     for data_name in data_names:
